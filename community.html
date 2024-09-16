@@ -17,7 +17,7 @@
             border: 1px solid #ddd;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 30px;
-            padding-top: 200px;
+            /* padding-top: 200px; */
         }
 
         .community-header {
@@ -161,7 +161,6 @@
             cursor: pointer;
             transition: background-color 0.3s, transform 0.2s;
 }
-
 
 /* newsletter section */
         .newsletter-signup {
@@ -309,7 +308,7 @@
         }
         @media (max-width: 768px) {
             .community-container {
-                padding-top: 100px;
+                /* padding-top: 100px; */
             }
         }
     }
@@ -352,8 +351,6 @@
             </nav>
         </header>
     
-    
-
     <main class="community-container">
         <div class="community-photo">
         <img src="Community/diverse-people-circle-community-concept-43888196.webp" alt=""></div>
@@ -383,6 +380,7 @@
                         <br> 
                         <br>
                         <button type="submit" class="btn">Add Post</button>
+                        <button class="cancel-btn">&times;</button>
                     </form>
                 </div>
                 </blockquote>
@@ -396,7 +394,21 @@
                   <footer>- mohammed Ali</footer>
                   <br>
                   <label for="comment-name">Comment</label>
-                  <input type="text" id="comment-name" name="name" required />
+                  <input type="text" id="comment-name" name="name"  />
+                  <button class="cancel-btn">&times;</button>
+                </blockquote>
+              </div>
+            </div>
+            <div class="testimonial-container">
+              <div class="testimonial-item">
+                <img src="Customer/default-avatar-profile-icon-vector-social-media-user-image-182145777.webp" alt="Customer 3" class="customer-photo" />
+                <blockquote>
+                  <p>"Great service and amazing selection of products."</p>
+                  <footer>- mohammed Ali</footer>
+                  <br>
+                  <label for="comment-name">Comment</label>
+                  <input type="text" id="comment-name" name="name" />
+                  <button class="cancel-btn">&times;</button>
                 </blockquote>
               </div>
             </div>
@@ -409,18 +421,7 @@
                   <br>
                   <label for="comment-name">Comment</label>
                   <input type="text" id="comment-name" name="name" required />
-                </blockquote>
-              </div>
-            </div>
-            <div class="testimonial-container">
-              <div class="testimonial-item">
-                <img src="Customer/default-avatar-profile-icon-vector-social-media-user-image-182145777.webp" alt="Customer 3" class="customer-photo" />
-                <blockquote>
-                  <p>"Great service and amazing selection of products."</p>
-                  <footer>- mohammed Ali</footer>
-                  <br>
-                  <label for="comment-name">Comment</label>
-                  <input type="text" id="comment-name" name="name" required />
+                  <button class="cancel-btn">&times;</button>
                 </blockquote>
               </div>
             </div>

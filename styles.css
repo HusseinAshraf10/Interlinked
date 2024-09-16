@@ -42,7 +42,7 @@ a.active {
     color: deepskyblue;
 }
 /* Navbar Styles */
-/* .navbar {
+.navbar {
     background-color: #333;
     color: #fff;
     padding: 10px 20px 0px;
@@ -52,17 +52,17 @@ a.active {
     position: relative;
     flex-wrap: wrap;
     padding-bottom: 16px;
-} */
+}
 
-header {
+/* header {
     position: fixed;
     width: 100%;
     z-index: 1000000;
     top: 0;
     transition: transform 0.3s ease-in-out;
-}
+} */
 
-.navbar {
+/* .navbar {
     background-color: #333;
     color: #fff;
     padding: 10px 20px 0;
@@ -72,7 +72,7 @@ header {
     position: relative;
     flex-wrap: wrap;
     padding-bottom: 16px;
-}
+} */
 
 /* Hides the navbar when scrolled down */
 .navbar-hidden {
@@ -293,7 +293,7 @@ fieldset {
     margin: 0; /* Remove any margins */
     padding: 0; /* Remove any padding */
     overflow: hidden; /* Hide any overflow */
-    
+    /* padding-top: 20vh; */
 }
 
 /* Logo Image */
@@ -2036,4 +2036,5 @@ footer {
     max-width: 100%; /* Ensure sections don't exceed the viewport width */
     padding: 20px;
     margin: 0 auto;
+    /* padding-top: 20vh; */
 }
