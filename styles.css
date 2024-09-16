@@ -389,37 +389,6 @@ fieldset {
     margin-left: 10px; /* Space between input and button */
 }
 
-/* .under-nav-links {
-    width: 100vw;
-    display: flex;
-    justify-content: flex-end;
-    gap: 2vw;
-    position: relative;
-    padding-top: 15px;
-    align-items: center;
-    transition: 0.3s;
-    overflow: hidden;
-}
-
-.under-nav-links::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: gray;
-    height: 2px;
-    width: 100%;
-}
-
-.under-nav-links li {
-    list-style: none;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-} */
-
-
-
 .under-nav-links {
     display: flex;
     justify-content: flex-end;
@@ -1563,7 +1532,7 @@ h2 {
     top: -2px;
     opacity: 1;
     transform: translateX(0%);
-    z-index: 20;
+    z-index: 20000;
     /* gap: 3vh; */
 }
 
@@ -1982,6 +1951,7 @@ footer {
         opacity: 0;
         transition: 0.3s;
         transform: translateX(100%);
+        z-index: 10000000;
     }
     .under-nav-links li {
         flex-grow: 0;
