@@ -17,16 +17,18 @@
             border: 1px solid #ddd;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 30px;
+            padding-top: 200px;
         }
 
         .community-header {
             text-align: center;
             margin-bottom: 2rem;
+            padding: 16px;
         }
 
         .community-header h1 {
             font-size: 2.5rem;
-            color: #333;
+            color: deepskyblue;
         }
 
         .community-header p {
@@ -76,6 +78,7 @@
             border: 1px solid #ddd;
             padding: 1rem;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: white;
         }
 
         .forum-item {
@@ -84,6 +87,7 @@
             border: 1px solid #ddd;
             padding: 1rem;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: white;
         }
 
         .testimonial-item {
@@ -303,6 +307,11 @@
             font-size: 0.9rem;
             padding: 0.5rem 1rem;
         }
+        @media (max-width: 768px) {
+            .community-container {
+                padding-top: 100px;
+            }
+        }
     }
     </style>
 </head>
@@ -345,7 +354,7 @@
     
     
 
-    <main class=".community-container">
+    <main class="community-container">
         <div class="community-photo">
         <img src="Community/diverse-people-circle-community-concept-43888196.webp" alt=""></div>
         <div class="community-header">
@@ -599,4 +608,3 @@
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-...YourIntegrityHash..." crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     </body>
     </html>
-    
